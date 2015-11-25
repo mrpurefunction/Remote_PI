@@ -84,7 +84,7 @@ namespace ws_test
                         if (rtv != null)
                         {
                             
-                            s.AddPiRecord(st, p.pn, (float)rtv.pvalue, p.mid, 1);
+                            s.AddPiRecord(st, p.pn, (float)rtv.pvalue, p.mid, 2);//last parameter is plant id,YQ:1,WZ:2
                             //c.AddPiRecord(st, p.pn, (float)rtv.pvalue, p.mid, 1);
                         }
                     }

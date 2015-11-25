@@ -31,7 +31,7 @@ namespace LocalPIData
 
     public class Biz
     {
-        public static int plantid = 1;
+        public static int plantid = 2;//YQ:1,WZ:2
         /// <summary>
         /// 
         /// </summary>

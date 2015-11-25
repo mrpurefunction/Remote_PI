@@ -15,7 +15,7 @@ namespace LocalPIData
         /// </summary>
         public PIHisData()
         {
-            new PI.PIFunc2("10.150.124.193", "pirw", "pirw");
+            new PI.PIFunc2("10.136.36.42", "piadmin", "");
         }
 
         /// <summary>
@@ -26,7 +26,7 @@ namespace LocalPIData
         /// <returns></returns>
         public double? GetHisValue(string pn, DateTime ts)
         {
-            PI.RetVal rv = (new PI.PIFunc2("10.150.124.193", "pirw", "pirw")).GetPointHisValue(pn, ts);
+            PI.RetVal rv = (new PI.PIFunc2("10.136.36.42", "piadmin", "")).GetPointHisValue(pn, ts);
             return rv == null ? (double?)null : rv.pvalue;
         }
     }
