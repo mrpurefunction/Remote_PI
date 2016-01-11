@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 using System.Data;
+using System.Configuration;
 
 namespace LocalPIData
 {
@@ -31,7 +32,12 @@ namespace LocalPIData
 
     public class Biz
     {
-        public static int plantid = 2;//YQ:1,WZ:2
+        /// <summary>
+        /// 
+        /// </summary>
+        //modified 20160108
+        public static int plantid = int.Parse((string)(new AppSettingsReader()).GetValue("plantid", typeof(string)));
+
         /// <summary>
         /// 
         /// </summary>

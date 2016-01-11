@@ -47,8 +47,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft Enterprise Library 5.0\Bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
     </Reference>
-    <Reference Include="PI">
-      <HintPath>..\..\ArithmeticFuncCore_20150112\PI\bin\Debug\PI.dll</HintPath>
+    <Reference Include="PI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\WenZhou\ArithmeticFuncCore_20150610_wenzhou_2\PI\bin\Debug\PI.dll</HintPath>
     </Reference>
     <Reference Include="PublicLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
